@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pagina Principal</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script type="text/javascript" src="js/bootstrap.min"></script>
+  <script type="text/javascript" src="js/jquery-3.4.1.min"></script>
+  <style type="text/css">
+    /* Ajustar los margenes del contenido*/
+    *{
+      margin:0;padding: 0;
+    }
+    html{
+    }
+    header{
+      width: 1350px;
+      height: 300px;
+    }
+    section#banner{
+      width: 1000px;
+      height: 300px;
+      float: left;
+      display: flex;justify-content: center;align-items: center;
+    }
+    section#login{
+      width: 350px;
+      height: 300px;
+      float:right;
+    }
+    main{
+      width:1350px;
+      height:1100px;
+    }
+    aside#left{
+      width: 400px;
+      height: 1100px;
+      float: left;
+    }
+    article{
+      width: 950px;
+      height: 1100px;
+      float: left;
+    }
+    section#titulo{
+      width: 950px;
+      height: 100px;
+      background:black;
+      border-radius: 5%;
+    }
+    section#contenido{
+      width: 950px;
+      height: 1000px;
+    }
+    section#Premier{width: 950px;height: 500px;}
+    section#SerieA{width: 950px;height: 500px;}
+
+      nav#redes{width: 1350px;height: 100px; display: flex;justify-content: center;align-items: center; background: black;}
+      nav#abajo{width: 1350px;height: 150px; background: black;}
+
+      footer{width:1350px; height:100px;background: black;}
+
+      p#pie{color: white;font-size: 15px;display: flex;justify-content: center;align-items: center;font-family: sans-serif;}
+      h3{color: white;font-size: 20px; font-family: sans-serif;}
+      h3#bancos{color: white;font-size: 20px;display: flex;justify-content: center;align-items: center;}
+
+      .iconos-sociales img{border-radius:50px;}
+      .iconos-sociales img{ 
+      transition:all 0.5s ease-out;}
+      .iconos-sociales img:hover{
+      transform: rotate(360deg);}
+      label{
+        color:white;
+      }
+      h1{
+        color:white;
+      }
+  </style> 
+</head>
+<body background="http://wallpapers4screen.com/Uploads/23-1-2016/13501/thumb2-saver-uefa-uefa-champions-league-the-stadium.jpg">
+  <header>
+    <section id="banner">
+      <img src="E:\Elsin\TRABAJO FINAL PAGINA WEB\Pagina\img\banner.png" style="width: 900px; height: 200px;">
+    </section>
+        <section id="login">
+          <form id="loguearse">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Correo Electrónico:</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Contraseña:</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Recordar Siempre</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Ingresar</button>
+    </form>
+        </section>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="PaginaPrincipal.html">INICIO</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Noticias.html">NOTICIAS <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="Apuestas.html">APUESTAS <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="SeccionFutbol.html">FUTBOL INTERNACIONAL <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="VideosDestacados.html">VIDEOS DESTACADOS <span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="Acercadenosotros2.html" tabindex="-1" aria-disabled="true">Acerca de Nosotros</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="Preguntasfrecuentes2.html" tabindex="-1" aria-disabled="true">Preguntas Frecuentes</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+  </nav>
+  <main>
+    <aside id="left">
+<div class="card-deck">
+  <div class="card">
+    <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2019/04/25/15562023610886.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Las 5 Grandes Ligas de Europa</h5>
+      <p class="card-text">Disfrutas las mejores noticias de las 5 grandes ligas de Europa.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+    </aside>
+
+    <article>
+      <section id="titulo"><center><h1>Futbol Internacional</h1></section></center>
+      <section id="contenido">
+        <section id="Premier">
+          <img style="width: 950px;height: 300px; border-radius: 5%" src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2017/09/fifa-ultimate-team-mejor-equipo-barato-premier-league.jpg" class="img-fluid" alt="Responsive image">
+
+          <table class="table table-striped table-dark">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Equipo Local</th>
+                            <th scope="col">Equipo Visitante</th>
+                            <th scope="col">Local</th>
+                            <th scope="col">Empate</th>
+                            <th scope="col">Visita</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Arsenal</td>
+                            <td>Totenham</td>
+                            <td>2.80</td>
+                            <td>1.70</td>
+                            <td>1.50</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Manchester City</td>
+                            <td>Chelsea</td>
+                            <td>1.16</td>
+                            <td>2.40</td>
+                            <td>1.79</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Manchester United</td>
+                            <td>Liverpool</td>
+                            <td>1.48</td>
+                            <td>1.48</td>
+                            <td>1.48</td>
+                          </tr>
+                        </tbody>
+                      </table>
+        </section>
+        <section id="SerieA">
+          <img style="width: 950px;height: 300px;border-radius: 5%;" src="https://www.pasionfutbol.com/__export/1542823880451/sites/pasionlibertadores/img/2018/11/21/partidos_serie_a_italia_.jpg_715985292.jpg" class="img-fluid" alt="Responsive image">
+          <table class="table table-striped table-dark">
+                      <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">Equipo Local</th>
+                          <th scope="col">Equipo Visitante</th>
+                          <th scope="col">Local</th>
+                          <th scope="col">Empate</th>
+                          <th scope="col">Visita</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Juventus</td>
+                          <td>AC Milan</td>
+                          <td>1.50</td>
+                          <td>3.00</td>
+                          <td>2.50</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>AS Roma</td>
+                          <td>Inter</td>
+                          <td>.3.00</td>
+                          <td>2.50</td>
+                          <td>2.25</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Napoli</td>
+                          <td>Torino</td>
+                          <td>1.80</td>
+                          <td>1.50</td>
+                          <td>1.70</td>
+                        </tr>
+                      </tbody>
+                    </table>
+        </section>
+      </section>
+    </article>
+  </main>
+  <nav id="redes">
+    <h3 id="bancos">Visita Nuestras Redes Sociales:</h3>
+    <div class="iconos-sociales">
+    <a href="...." target="_blank"><img alt="Sígueme en Facebook" height="65" width="65" src="https://2.bp.blogspot.com/-28mh2hZK3HE/XCrIxxSCW0I/AAAAAAAAH_M/XniFGT5c2lsaVNgf7UTbPufVmIkBPnWQQCLcBGAs/s1600/facebook.png" title="Sígueme en Facebook"/></a>
+    <a href="....." target="_blank"><img alt="Sígueme en Facebook" height="65" width="65" src="https://3.bp.blogspot.com/-E4jytrbmLbY/XCrI2Xd_hUI/AAAAAAAAIAo/qXt-bJg1UpMZmTjCJymxWEOGXWEQ2mv3ACLcBGAs/s1600/twitter.png" title="Sígueme en Twitter"/></a>
+    <a href="....." target="_blank"><img alt="Sígueme en Instagram!" height="65" width="65" src="https://4.bp.blogspot.com/-Ilxti1UuUuI/XCrIy6hBAcI/AAAAAAAAH_k/QV5KbuB9p3QB064J08W2v-YRiuslTZnLgCLcBGAs/s1600/instagram.png" title="Sígueme en Instagram!"/></a>
+    <a href="...." target="_blank"><img alt="Visita Nuestro Canal de YouTube!!" height="65" width="65" src="https://1.bp.blogspot.com/-CUKx1kAd-ls/XCrI4UAvNqI/AAAAAAAAIBI/-i1neUt8kZwP6YOsFOXX5p0Bnqa29m-JgCLcBGAs/s1600/youtube2.png" title="Visita Nuestro Canal de YouTube!!"/></a>
+    <a href="...." target="_blank"><img alt="Visita Nuestro Telegram!!" height="65" width="65" src="https://3.bp.blogspot.com/-NOTWs1UNTnk/XCrI2O3rx3I/AAAAAAAAIAg/lc-DSUYDRVAxf3X0c8TJG4vhTUKVL41DACLcBGAs/s1600/telegram.png" title="Visita Nuestro Telegram!!"/></a>
+    <a href="...." target="_blank"><img alt="Agrega al WhatsApp !!" height="65" width="65" src="https://2.bp.blogspot.com/-hJd7RLbG6dQ/XCrI389R_CI/AAAAAAAAIA8/2zdJ54oo7GAjqppIbfin0jvgf6cvk3VPgCLcBGAs/s1600/whatsapp.png" title="Agrega al WhatsApp !!"/></a>
+    <a href="...." target="_blank"><img alt="Paypal !!" height="65" width="65" src="https://2.bp.blogspot.com/-eD1iDDzz1Og/XCrIv6BKSyI/AAAAAAAAH-s/ZkgfaDsKULIJxpKPDqORccxoX5Y7mJ8EwCLcBGAs/s1600/PayPal.png" title="Paypal !!"/></a>
+    </div>
+
+  </nav>
+  <nav id="abajo">
+        <h3 id="bancos">Conoce nuestras formas de Pago:</h3>
+  <img src="https://cdn.inkabet.pe/cms/uploads/default/footer_logos8.png" width="1200">
+  </nav>
+  <footer>
+    <center><p id="pie"><br>
+      <br>
+    Toda información que intercambiamos en nuestro portal se maneja de manera encriptada SSL (Secure Socket Layer) asegurando así, su máxima protección y confidencialidad.<br>
+    © LABET 2019 – Todos los derechos reservados</p></center>
+  </footer>
+</body>
+</html>
