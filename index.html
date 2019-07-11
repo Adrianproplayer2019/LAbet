@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pagina Principal</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script type="text/javascript" src="js/bootstrap.min"></script>
+	<script type="text/javascript" src="js/jquery-3.4.1.min"></script>
+	<style type="text/css">
+		/* Ajustar los margenes del contenido*/
+		*{
+			margin:0;padding: 0;
+		}
+		html{
+		}
+    	body#bodyp{
+    	background-image: url(http://wallpapers4screen.com/Uploads/23-1-2016/13501/thumb2-saver-uefa-uefa-champions-league-the-stadium.jpg);
+    	width:100%;
+    	height:100%;
+    	margin:0;
+    	border:0;
+    	padding:0;
+    	}
+		header{
+			width: 1350px;
+			height: 300px;
+		}
+		section#banner{
+			width: 1000px;
+			height: 300px;
+			float: left;
+			display: flex;justify-content: center;align-items: center;
+		}
+		section#login{
+			width: 350px;
+			height: 300px;
+			float:right;
+		}
+		main{
+			width:1350px;
+			height:1100px;
+		}
+		aside#left{
+			width: 200px;
+			height: 1100px;
+			float: left;
+		}
+		article{
+			width: 950px;
+			height: 1100px;
+			float: left;
+		}
+    	nav#redes{width: 1350px;height: 100px; display: flex;justify-content: center;align-items: center;background: black;}
+    	nav#abajo{width: 1350px;height: 150px; background: black;}
+
+    	footer{width:1350px; height:100px;background: black;}
+
+	    p#pie{color: white;font-size: 15px;display: flex;justify-content: center;align-items: center;font-family: sans-serif;}
+	    h3{color: white;font-size: 20px; font-family: sans-serif;}
+	    h3#bancos{color: white;font-size: 20px;display: flex;justify-content: center;align-items: center;}
+
+	    .iconos-sociales img{border-radius:50px;}
+	    .iconos-sociales img{ 
+	    transition:all 0.5s ease-out;}
+	    .iconos-sociales img:hover{
+	    transform: rotate(360deg);}
+	    label{
+	    	color:white;
+	    }
+	    
+	</style> 
+</head>
+<body id="bodyp">
+	<header>
+		<section id="banner">
+			<img src="banner.png" style="width: 900px; height: 200px;">
+		</section>
+        <section id="login">
+        	<form id="loguearse">
+		  <div class="form-group">
+		    <label for="exampleInputEmail1">Correo Electrónico:</label>
+		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputPassword1">Contraseña:</label>
+		    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+		  </div>
+		  <div class="form-group form-check">
+		    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+		    <label class="form-check-label" for="exampleCheck1">Recordar Siempre</label>
+		  </div>
+		  <button type="submit" class="btn btn-primary">Ingresar</button>
+		</form>
+        </section>
+	</header>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">INICIO</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Noticias.html">NOTICIAS <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="Apuestas.html">APUESTAS <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="SeccionFutbol.html">FUTBOL INTERNACIONAL <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="VideosDestacados.html">VIDEOS DESTACADOS <span class="sr-only">(current)</span></a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="Acercadenosotros2.html" tabindex="-1" aria-disabled="true">Acerca de Nosotros</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="Preguntasfrecuentes2.html" tabindex="-1" aria-disabled="true">Preguntas Frecuentes</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+	</nav>
+
+	<main>
+		<aside id="left"></aside>
+		<article>
+			<div class="card-group">
+  <div class="card">
+    <img src="https://d500.epimg.net/cincodias/imagenes/2018/06/12/lifestyle/1528798214_541981_1528798870_noticia_normal.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Liga Española</h5>
+      <p class="card-text">Noticias de La Liga, apuesta y </p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2017/09/fifa-ultimate-team-mejor-equipo-barato-premier-league.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Liga de Inglaterra</h5>
+      <p class="card-text">Recibe Noticias sobre la Premier League de Inglaterra  y Apuesta.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://www.pasionfutbol.com/__export/1542823880451/sites/pasionlibertadores/img/2018/11/21/partidos_serie_a_italia_.jpg_715985292.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Liga Italiana</h5>
+      <p class="card-text">Recibe Noticias sobre la Liga de Italiana  y Apuesta.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="http://lajugadafinanciera.com/wp-content/uploads/2018/02/bundesliga-inversores-extranjeros-2018.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Liga Alemana</h5>
+      <p class="card-text">Recibe Noticias sobre la Liga de Alemana  y Apuesta.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://superportistas.pt/wp-content/uploads/2018/01/ligue-1-sky.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Liga Francesa</h5>
+      <p class="card-text">Recibe Noticias sobre la Liga de Francesa  y Apuesta.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://www.comparadorapuestas.net/wp-content/uploads/2015/11/port1-300x169.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Liga Portuguesa</h5>
+      <p class="card-text">Recibe Noticias sobre la Liga de Portugal  y Apuesta.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="https://images2.minutemediacdn.com/image/upload/c_fill,w_912,h_516,f_auto,q_auto,g_auto/shape/cover/sport/5b73f3568f175298f7000001.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">UEFA Champions League</h5>
+      <p class="card-text">Recibe Noticias de la mejor competición a nivel de Clubes y Apuesta.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://images2.minutemediacdn.com/image/upload/c_fill,w_912,h_516,f_auto,q_auto,g_auto/shape/cover/sport/5c176c38dd1aa7cd64000001.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">UEFA Europa League</h5>
+      <p class="card-text">Recibe Noticias de la UEFA Europa League y Apuesta. </p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://storage.googleapis.com/mmc-cdn-bucket/uploads/2019/01/6a3a3777-copa-libertadores-2019.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Copa Libertadores</h5>
+      <p class="card-text">Recibe Noticias de la Copa Libertadores de América.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div>
+		</article>
+	</main>
+  <nav id="redes">
+    <h3 id="bancos">Visita Nuestras Redes Sociales:</h3>
+    <div class="iconos-sociales">
+    <a href="...." target="_blank"><img alt="Sígueme en Facebook" height="65" width="65" src="https://2.bp.blogspot.com/-28mh2hZK3HE/XCrIxxSCW0I/AAAAAAAAH_M/XniFGT5c2lsaVNgf7UTbPufVmIkBPnWQQCLcBGAs/s1600/facebook.png" title="Sígueme en Facebook"/></a>
+    <a href="....." target="_blank"><img alt="Sígueme en Facebook" height="65" width="65" src="https://3.bp.blogspot.com/-E4jytrbmLbY/XCrI2Xd_hUI/AAAAAAAAIAo/qXt-bJg1UpMZmTjCJymxWEOGXWEQ2mv3ACLcBGAs/s1600/twitter.png" title="Sígueme en Twitter"/></a>
+    <a href="....." target="_blank"><img alt="Sígueme en Instagram!" height="65" width="65" src="https://4.bp.blogspot.com/-Ilxti1UuUuI/XCrIy6hBAcI/AAAAAAAAH_k/QV5KbuB9p3QB064J08W2v-YRiuslTZnLgCLcBGAs/s1600/instagram.png" title="Sígueme en Instagram!"/></a>
+    <a href="...." target="_blank"><img alt="Visita Nuestro Canal de YouTube!!" height="65" width="65" src="https://1.bp.blogspot.com/-CUKx1kAd-ls/XCrI4UAvNqI/AAAAAAAAIBI/-i1neUt8kZwP6YOsFOXX5p0Bnqa29m-JgCLcBGAs/s1600/youtube2.png" title="Visita Nuestro Canal de YouTube!!"/></a>
+    <a href="...." target="_blank"><img alt="Visita Nuestro Telegram!!" height="65" width="65" src="https://3.bp.blogspot.com/-NOTWs1UNTnk/XCrI2O3rx3I/AAAAAAAAIAg/lc-DSUYDRVAxf3X0c8TJG4vhTUKVL41DACLcBGAs/s1600/telegram.png" title="Visita Nuestro Telegram!!"/></a>
+    <a href="...." target="_blank"><img alt="Agrega al WhatsApp !!" height="65" width="65" src="https://2.bp.blogspot.com/-hJd7RLbG6dQ/XCrI389R_CI/AAAAAAAAIA8/2zdJ54oo7GAjqppIbfin0jvgf6cvk3VPgCLcBGAs/s1600/whatsapp.png" title="Agrega al WhatsApp !!"/></a>
+    <a href="...." target="_blank"><img alt="Paypal !!" height="65" width="65" src="https://2.bp.blogspot.com/-eD1iDDzz1Og/XCrIv6BKSyI/AAAAAAAAH-s/ZkgfaDsKULIJxpKPDqORccxoX5Y7mJ8EwCLcBGAs/s1600/PayPal.png" title="Paypal !!"/></a>
+    </div>
+
+  </nav>
+  <nav id="abajo">
+        <h3 id="bancos">Conoce nuestras formas de Pago:</h3>
+  <img src="https://cdn.inkabet.pe/cms/uploads/default/footer_logos8.png" width="1200">
+  </nav>
+  <footer>
+    <center><p id="pie"><br>
+      <br>
+    Toda información que intercambiamos en nuestro portal se maneja de manera encriptada SSL (Secure Socket Layer) asegurando así, su máxima protección y confidencialidad.<br>
+    © LABET 2019 – Todos los derechos reservados</p></center>
+  </footer>
+</body>
+</html>
